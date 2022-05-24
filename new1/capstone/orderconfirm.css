@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background:#FFF;
+}
+a,a:hover,a:focus{
+	text-decoration:none;
+	outline:none;
+}
+
+li{
+	list-style:none;
+	display:inline-block;
+}
+
+
+
+.header{
+	background-color:#FFF;
+	box-shadow:0px 5px 10px rgba(91,91,91,0.1);
+}
+
+.header_logo{
+	padding:26px 0;
+	text-align:center;
+}
+
+.header_logo a{
+	display:inline-block;
+	color:#8AA9DC,#fff;
+	font-size:27px;
+	text-transform:uppercase;
+	font-weight:700;
+	letter-spacing:3px;
+}
+
+.header_logo a span{
+	color:#ff7200;
+	font-size:32px;
+	font-weight:700;
+}	
+
+ h3{
+	font-size:19px;
+	text-align:center;
+	margin-bottom:200px;
+	margin-top:15px;
+}
+
+
+
+.header_right{
+	text-align:center;
+	padding:30px 0 0px;
+	
+}
+
+.header_right .header_right_auth{
+	margin-left:150px;
+	margin-right:25px;
+}
+
+ p{
+	padding-left:600px;
+	
+}
+
+.header_right .header_right_auth a button{
+	font-size:17px;
+	position:relative;
+	margin-left:800px;
+	border:none;
+	color:blue;
+	background-color:#fff;
+}
+
+.container1{
+	margin-top:50px;
+	margin-left:150px;
+	background-color:#fff;
+	width:1200px;
+	display:center;
+	padding-top:25px;
+	height:400px;
+}
+.container1 .customer{
+	display:flex;
+	padding-left:10px;
+	padding-bottom:35px;
+}
+
+.customer .input-field input{
+	width:990px;
+}
+.container1 .firstname {
+	display:flex;
+	padding-left:20px;
+}
+.container1 .secondname{
+	display:flex;
+	margin-left:120px;
+}
+.container1 .fourthname{
+	display:flex;
+	margin-left:4px;
+}
+.container1 .thirdname {
+	display:flex;
+	padding-left:20px;
+}
+.container1 .fifthname{
+	display:flex;
+	margin-left:90px;
+}
+.container1 .sixthname{
+	display:flex;
+	margin-left:90px;
+}
+.container1 .seventhname{
+	display:flex;
+}
+.container1 .sixthname input{
+	width:130px;
+}
+.container1 .fifthname input{
+	width:100px;
+	
+}
+
+.container1 .seventhname input{
+	width:1080px;	
+}
+
+.container1 .fs{
+	display:flex;
+	padding-bottom:40px;
+}
+.container1 .thf{
+	display:flex;
+	padding-bottom:25px;
+}
+
+.container1 .input-field{
+	margin-left:13px;
+}
+
+/*.input-field{
+	border : 1px solid black;
+	margin-bottom:1px;
+	height:30px;
+	width:300px;
+	border-radius:3px;
+	
+}*/
+
+
+.container{
+	margin-top:50px;
+	margin-left:400px;
+	width:700px;
+	background-color:#eafeea;
+	height:25px;
+	padding-top:4px;
+	padding-left:180px;
+	padding-bottom:28px;
+	border-radius:5px;
+	
+	
+}
+
+.container1 h4{
+	font-size:20px;
+}
+
+.return  h5{
+		font-size:17px;
+		text-align:center;
+		margin-left:-200px;
+		margin-bottom:100px;
+}
